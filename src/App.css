@@ -3,11 +3,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background-color: hsl(330, 7%, 24%);
 }
 
 .App-header {
-  background-color: #41393d;
+  background-color: hsl(330, 7%, 24%);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -17,18 +17,62 @@
   color: white;
 }
 
+.header {
+  margin-top: 4px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  color: white;
+  padding: 15px;
+  z-index: 100;
+}
+
+.header .nav {
+  display: flexbox;
+}
+
+.header .nav .nava {
+  margin: 2%;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 30px;
+  font-size: 2rem;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  z-index: 100;
+}
+
+.footer .pfoot {
+  margin: 2%;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 30px;
+  font-size: 2rem;
+}
+
 .scene {
   position: relative;
-  width: 500px;
-  height: 500px;
+  width: 100%;
+  height: 100%;
 }
 
 .earth-wrap {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 160px;
-  height: 160px;
+  width: 800px;
+  height: 800px;
   transform: translate(-50%, -50%);
 }
 
@@ -52,8 +96,8 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 200px;
-  height: 200px;
+  width: 1000px;
+  height: 1000px;
   transform: translate(-50%, -50%);
   animation: orbitMoon 30s linear infinite;
 }
@@ -63,8 +107,8 @@
   position: absolute;
   top: 0;
   left: 50%;
-  width: 90px;
-  height: 90px;
+  width: 400px;
+  height: 400px;
   transform: translateX(-50%);
 }
 
@@ -135,53 +179,3 @@
     opacity: 1;
   }
 }
-
-/*
-.earth {
-  height: 40vmin;
-  pointer-events: none;
-  position: absolute;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .earth {
-    animation: App-logo-spin infinite 100s linear;
-  }
-}
-
-.moon {
-  height: 40vmin;
-  pointer-events: none;
-  position: absolute;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .moon {
-    animation: App-logo-spin infinite 30s linear;
-  }
-}
-
-.moonlight {
-  height: 40vmin;
-  pointer-events: none;
-  position: absolute;
-}
-
-.light {
-  height: 40vmin;
-  pointer-events: none;
-  position: absolute;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}*/

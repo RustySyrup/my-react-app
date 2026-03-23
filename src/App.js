@@ -3,25 +3,32 @@ import earth from "./earth.svg";
 import moon from "./moon.svg";
 import light from "./light.svg";
 import moonlight from "./moonlight.svg";
+import EarthAndMoon from "./EarthAndMoon";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <div className="scene">
-          <div className="earth-wrap">
-            <img src={earth} className="earth" alt="earth" />
-            <img src={light} className="light" alt="light" />
-          </div>
-          <div className="moon-orbit">
-            <div className="moon-wrap">
-              <img src={moon} className="moon" alt="moon" />
-              <img src={moonlight} className="moonlight" alt="moonlight" />
-            </div>
-          </div>
-        </div>
+      <header className="header">
+        <nav className="nav">
+          <a className="nava" href="https://science.nasa.gov/earth/">
+            Earth
+          </a>
+          <a className="nava" href="https://science.nasa.gov/moon/">
+            Moon
+          </a>
+        </nav>
       </header>
+
+      <header className="App-header">
+        <EarthAndMoon />
+      </header>
+
+      <footer className="footer">
+        <p>
+          <span className="pfoot">© 2026 RustySyrup</span>
+        </p>
+      </footer>
     </div>
   );
 }
