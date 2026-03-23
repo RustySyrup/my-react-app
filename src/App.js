@@ -1,23 +1,27 @@
 import logo from "./logo.svg";
+import earth from "./earth.svg";
+import moon from "./moon.svg";
+import light from "./light.svg";
+import moonlight from "./moonlight.svg";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <body className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </body>
+      <header className="App-header">
+        <div className="scene">
+          <div className="earth-wrap">
+            <img src={earth} className="earth" alt="earth" />
+            <img src={light} className="light" alt="light" />
+          </div>
+          <div className="moon-orbit">
+            <div className="moon-wrap">
+              <img src={moon} className="moon" alt="moon" />
+              <img src={moonlight} className="moonlight" alt="moonlight" />
+            </div>
+          </div>
+        </div>
+      </header>
     </div>
   );
 }

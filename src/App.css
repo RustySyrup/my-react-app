@@ -1,20 +1,13 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
 }
 
 .App-header {
-  background-color: #b61a63;
+  background-color: #41393d;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +15,162 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.scene {
+  position: relative;
+  width: 500px;
+  height: 500px;
+}
+
+.earth-wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 160px;
+  height: 160px;
+  transform: translate(-50%, -50%);
+}
+
+.earth,
+.light {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .earth {
+    animation: spinPlanet 100s linear infinite;
+  }
+}
+
+/* Moon orbit path */
+.moon-orbit {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  transform: translate(-50%, -50%);
+  animation: orbitMoon 10s linear infinite;
+}
+
+/* Moon placed on top edge of orbit */
+.moon-wrap {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 90px;
+  height: 90px;
+  transform: translateX(-50%);
+}
+
+.moon,
+.moonlight {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+/* Moon spin */
+
+/* Moonlight stays still unless you animate it later */
+
+@media (prefers-reduced-motion: no-preference) {
+  .moonlight {
+    animation:
+      hideOnRight 10s linear infinite,
+      spinMoonlight 10s linear infinite;
+  }
+}
+
+@keyframes spinMoonlight {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes spinPlanet {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes orbitMoon {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@keyframes hideOnRight {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+
+  40% {
+    opacity: 1;
+  }
+
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*
+.earth {
+  height: 40vmin;
+  pointer-events: none;
+  position: absolute;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .earth {
+    animation: App-logo-spin infinite 100s linear;
+  }
+}
+
+.moon {
+  height: 40vmin;
+  pointer-events: none;
+  position: absolute;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .moon {
+    animation: App-logo-spin infinite 30s linear;
+  }
+}
+
+.moonlight {
+  height: 40vmin;
+  pointer-events: none;
+  position: absolute;
+}
+
+.light {
+  height: 40vmin;
+  pointer-events: none;
+  position: absolute;
 }
 
 .App-link {
@@ -35,4 +184,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+}*/
