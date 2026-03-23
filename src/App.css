@@ -43,7 +43,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .earth {
-    animation: spinPlanet 100s linear infinite;
+    animation: spinPlanet 120s linear infinite;
   }
 }
 
@@ -55,7 +55,7 @@
   width: 200px;
   height: 200px;
   transform: translate(-50%, -50%);
-  animation: orbitMoon 10s linear infinite;
+  animation: orbitMoon 30s linear infinite;
 }
 
 /* Moon placed on top edge of orbit */
@@ -84,8 +84,8 @@
 @media (prefers-reduced-motion: no-preference) {
   .moonlight {
     animation:
-      hideOnRight 10s linear infinite,
-      spinMoonlight 10s linear infinite;
+      hideOnRight 30s linear infinite,
+      spinMoonlight 30s linear infinite;
   }
 }
 
