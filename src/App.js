@@ -11,10 +11,18 @@ function App() {
     <div className="App">
       <header className="header">
         <nav className="nav">
-          <a className="nava" href="https://science.nasa.gov/earth/">
+          <a
+            className="nava"
+            href="https://science.nasa.gov/earth/"
+            target="blank"
+          >
             Earth
           </a>
-          <a className="nava" href="https://science.nasa.gov/moon/">
+          <a
+            className="nava"
+            href="https://science.nasa.gov/moon/"
+            target="blank"
+          >
             Moon
           </a>
         </nav>
