@@ -32,9 +32,15 @@ function App() {
         <EarthAndMoon />
       </header>
 
+      <body className="body"></body>
+
+      <aside className="aside">
+        <p>this is aside</p>
+      </aside>
+
       <footer className="footer">
         <p>
-          <span className="pfoot">© 2026 RustySyrup</span>
+          <span className="pfoot">2026 RustySyrup</span>
         </p>
       </footer>
     </div>
