@@ -1,15 +1,15 @@
-import React from "react";
-import "./Illustration.css";
+// import React from "react";
+// import "./Illustration.css";
 
-function Illustration() {
-  return (
-    <div className="illheader">
-      <p>second page</p>
-    </div>
-  );
-}
+// function Illustration() {
+//   return (
+//     <div className="illheader">
+//       <p>second page</p>
+//     </div>
+//   );
+// }
 
-export default Illustration;
+// export default Illustration;
 
 // import React, { useState } from "react";
 // import "./Illustration.css";

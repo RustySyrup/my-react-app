@@ -1,0 +1,89 @@
+.home {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(330, 7%, 24%);
+  height: 100%;
+}
+
+.home-body {
+  background-color: hsl(330, 7%, 24%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.aside {
+  margin: 2%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 75%;
+  width: 20%;
+  border: 2px solid white;
+  border-radius: 30px;
+}
+
+.header {
+  margin-top: 4px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  color: white;
+  padding: 15px;
+  z-index: 100;
+}
+
+.header .nav {
+  display: flexbox;
+}
+
+.header .nav .nava {
+  margin: 2%;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 30px;
+  font-size: 2rem;
+}
+
+.body {
+  background-color: hsl(330, 7%, 24%);
+}
+
+.button {
+  background-color: hsl(330, 7%, 24%);
+  margin: 2%;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 30px;
+  font-size: 2rem;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  z-index: 100;
+}
+
+.footer .pfoot {
+  margin: 2%;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 30px;
+  font-size: 2rem;
+}

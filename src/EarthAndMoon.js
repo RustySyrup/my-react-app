@@ -3,6 +3,7 @@ import earth from "./earth.svg";
 import moon from "./moon.svg";
 import light from "./light.svg";
 import moonlight from "./moonlight.svg";
+import "./EarthAndMoon.css";
 
 const EarthAndMoon = ({}) => {
   return (
