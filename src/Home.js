@@ -17,7 +17,7 @@ function Home() {
           </a>
 
           <button className="button" type="button">
-            illustrations
+            Illustrations
           </button>
 
           <a
@@ -32,16 +32,25 @@ function Home() {
       </header>
 
       <main className="home-body">
-        <EarthAndMoon />
+        <div className="earthandmoon-container">
+          <EarthAndMoon />
+        </div>
+        <div className="home-container">
+          <h1>About me</h1>
+          <p>
+            I like space and science and i learn everyday from my friend and
+            articles on how to code in javascript and react
+          </p>
+        </div>
       </main>
 
       <aside className="aside">
-        <nav> <a>  </nav>
+        <h1 className="aside-h1">projects</h1>
       </aside>
 
       <footer className="footer">
         <p>
-          <span className="pfoot">2026 RustySyrup</span>
+          <span className="pfoot">2026 @RustySyrup</span>
         </p>
       </footer>
     </div>
