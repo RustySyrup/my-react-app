@@ -20,7 +20,7 @@
 
 .earthandmoon-container {
   margin-top: 130px;
-  height: 500px;
+  height: 450px;
   position: relative;
 }
 
@@ -31,6 +31,12 @@
   width: 40%;
   border: 2px solid white;
   border-radius: 30px;
+}
+
+/*images*/
+
+.home-images {
+  width: 100%;
 }
 
 .aside {
