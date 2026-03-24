@@ -8,6 +8,10 @@ import float from "./float-book.jpg";
 import water1 from "./water1.jpg";
 import water2 from "./water2.jpg";
 import water3 from "./water3.jpg";
+import glass1 from "./glass1.jpg";
+import glass2 from "./glass2.jpg";
+import glass3 from "./glass3.jpg";
+import glass4 from "./glass4.jpg";
 import "./Home.css";
 
 function Home() {
@@ -76,6 +80,14 @@ function Home() {
           <img src={water2} className="home-images" alt="Water blue" />
           <p>Water 3</p>
           <img src={water3} className="home-images" alt="Water red" />
+          <p>Glass 1</p>
+          <img src={glass1} className="home-images" alt="Water glass dark" />
+          <p>Glass 2</p>
+          <img src={glass2} className="home-images" alt="Water glass warm" />
+          <p>Glass 3</p>
+          <img src={glass3} className="home-images" alt="Water glass creamy" />
+          <p>Glass 4</p>
+          <img src={glass4} className="home-images" alt="Water glass relief" />
         </div>
       </main>
 
