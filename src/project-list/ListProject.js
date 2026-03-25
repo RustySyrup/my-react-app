@@ -7,10 +7,16 @@ function ListProject() {
     <div className="my-projects-container">
       <div>
         <div className="my-project-h2-container">
-          <h2>Projects</h2>
+          <h1>RustySyrup Projects</h1>
         </div>
         <div className="my-project-list-container">
           <ul>
+            <li>
+              <a className="selectors" href="#about">
+                {" "}
+                About-me
+              </a>
+            </li>
             <li>
               <a className="selectors" href="#images">
                 {" "}

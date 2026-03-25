@@ -10,6 +10,7 @@
 
 .my-project-h2-container {
   justify-self: center;
+  text-align: center;
 }
 
 .my-project-list-container {
@@ -25,10 +26,14 @@
 }
 
 .my-projects-container li {
-  background-color: hsla(17, 56%, 49%, 0.35);
+  background-color: hsla(26, 45%, 30%, 0.7);
   margin: 10px;
   padding: 10px;
   text-align: center;
-  border: 2px solid white;
+  border: 2px solid hsl(39, 47%, 66%);
   border-radius: 30px;
+}
+
+.my-projects-container li:hover {
+  background-color: hsla(32, 37%, 46%, 0.7);
 }

@@ -14,8 +14,12 @@ function Home() {
       <main className="main-container">
         <EarthAndMoon />
 
+        <div className="home-about-container">
+          <div id="about">
+            <AboutMe />
+          </div>
+        </div>
         <div className="sub-container">
-          <AboutMe />
           <div id="images">
             <Images />
           </div>
