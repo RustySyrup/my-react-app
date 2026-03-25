@@ -1,6 +1,6 @@
 import React from "react";
 import Home from "./Home";
-import space from "./space.png";
+import space from "./images/space.png";
 import "./App.css";
 
 function App() {

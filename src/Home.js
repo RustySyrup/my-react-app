@@ -1,17 +1,17 @@
 import React from "react";
 import EarthAndMoon from "./EarthAndMoon";
-import obilisk from "./obilisk.jpg";
-import ship from "./ship.jpg";
-import planet from "./planet.jpg";
-import book from "./book.jpg";
-import float from "./float-book.jpg";
-import water1 from "./water1.jpg";
-import water2 from "./water2.jpg";
-import water3 from "./water3.jpg";
-import glass1 from "./glass1.jpg";
-import glass2 from "./glass2.jpg";
-import glass3 from "./glass3.jpg";
-import glass4 from "./glass4.jpg";
+import obilisk from "./images/obilisk.jpg";
+import ship from "./images/ship.jpg";
+import planet from "./images/planet.jpg";
+import book from "./images/book.jpg";
+import float from "./images/float-book.jpg";
+import water1 from "./images/water1.jpg";
+import water2 from "./images/water2.jpg";
+import water3 from "./images/water3.jpg";
+import glass1 from "./images/glass1.jpg";
+import glass2 from "./images/glass2.jpg";
+import glass3 from "./images/glass3.jpg";
+import glass4 from "./images/glass4.jpg";
 import "./Home.css";
 
 function Home() {
@@ -50,10 +50,10 @@ function Home() {
         <div className="home-container">
           <h1>About me</h1>
           <p>
-            I like space and science and i learn everyday from my friends and
-            articles on how to code in javascript and react I am also a
-            photographer and also do astro photography you can see my work as
-            the background.
+            I like space and science and I learn everyday from my friends and
+            articles on how to code in javascript and react. I am also a
+            photographer with special interest in astro photography you can see
+            my work as the background.
           </p>
           <h1>My photagraphy</h1>
           <p>Obilisk</p>
