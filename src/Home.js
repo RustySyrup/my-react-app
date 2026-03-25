@@ -7,6 +7,7 @@ import AboutMe from "./about-me/AboutMe";
 import Credit from "./credit/Credit";
 
 import "./Home.css";
+import Illustration from "./illustrations-code/Illustration";
 
 function Home() {
   return (
@@ -22,6 +23,11 @@ function Home() {
         <div className="sub-container">
           <div id="images">
             <Images />
+          </div>
+        </div>
+        <div className="sub-container">
+          <div id="illustrations">
+            <Illustration />
           </div>
         </div>
       </main>

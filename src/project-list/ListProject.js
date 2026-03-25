@@ -12,37 +12,37 @@ function ListProject() {
         <div className="my-project-list-container">
           <ul>
             <li>
-              <a className="selectors" href="#about">
+              <a className="list-anchors" href="#about">
                 {" "}
                 About-me
               </a>
             </li>
             <li>
-              <a className="selectors" href="#images">
+              <a className="list-anchors" href="#images">
                 {" "}
                 Photagraphy
               </a>
             </li>
             <li>
-              <a className="selectors" href="#images">
+              <a className="list-anchors" href="#images">
                 {" "}
                 Astrophotagraphy
               </a>
             </li>
             <li>
-              <a className="selectors" href="#images">
+              <a className="list-anchors" href="#illustrations">
                 {" "}
                 Illustration
               </a>
             </li>
             <li>
-              <a className="selectors" href="#images">
+              <a className="list-anchors" href="#images">
                 {" "}
                 Logos
               </a>
             </li>
             <li>
-              <a className="selectors" href="#images">
+              <a className="list-anchors" href="#images">
                 {" "}
                 Typography
               </a>
