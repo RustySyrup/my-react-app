@@ -3,6 +3,7 @@ import earth from "./svg/earth.svg";
 import moon from "./svg/moon.svg";
 import light from "./svg/light.svg";
 import moonlight from "./svg/moonlight.svg";
+import satelite from "./svg/satelite.svg";
 import "./EarthAndMoon.css";
 
 const EarthAndMoon = ({}) => {
@@ -13,6 +14,10 @@ const EarthAndMoon = ({}) => {
           <img src={earth} className="earth" alt="earth" />
           <img src={light} className="light" alt="light" />
         </div>
+        <div className="satelite-wrap">
+          <img src={satelite} className="satelite" alt="satelite" />
+        </div>
+
         <div className="moon-orbit">
           <div className="moon-wrap">
             <img src={moon} className="moon" alt="moon" />

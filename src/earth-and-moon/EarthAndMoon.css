@@ -1,7 +1,8 @@
 .earth,
 .light,
 .moon,
-.moonlight {
+.moonlight,
+.satelite {
   user-select: none;
 }
 
@@ -48,10 +49,18 @@
   width: 1000px;
   height: 1000px;
   transform: translate(-50%, -50%);
-  animation: orbitMoon 30s linear infinite;
+  animation: orbitMoon 40s linear infinite;
 }
 
-/* Moon placed on top edge of orbit */
+.satelite-wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 800px;
+  height: 800px;
+  transform: translate(-50%, -50%);
+  animation: orbitsatelite 20s linear infinite;
+}
 
 .moon-wrap {
   position: absolute;
@@ -74,8 +83,8 @@
 @media (prefers-reduced-motion: no-preference) {
   .moonlight {
     animation:
-      hideOnRight 30s linear infinite,
-      spinMoonlight 30s linear infinite;
+      hideOnRight 40s linear infinite,
+      spinMoonlight 40s linear infinite;
   }
 }
 
@@ -94,6 +103,15 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes orbitsatelite {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(-360deg);
   }
 }
 
