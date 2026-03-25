@@ -3,31 +3,43 @@ import EarthAndMoon from "./earth-and-moon/EarthAndMoon";
 import ListProject from "./project-list/ListProject";
 import Images from "./images-code/Images";
 import AboutMe from "./about-me/AboutMe";
-
 import Credit from "./credit/Credit";
-
-import "./Home.css";
 import Illustration from "./illustrations-code/Illustration";
+import Astro from "./astrophotagraphy-code/Astro";
+import Logos from "./logos-code/Logos";
+import "./Home.css";
 
 function Home() {
   return (
     <div className="home">
+      <div id="top"></div>
       <main className="main-container">
         <EarthAndMoon />
 
         <div className="home-about-container">
-          <div id="about">
+          <div id="about" className="scroll-container">
+            {" "}
             <AboutMe />
           </div>
         </div>
         <div className="sub-container">
-          <div id="images">
+          <div id="images" className="scroll-container">
             <Images />
           </div>
         </div>
         <div className="sub-container">
-          <div id="illustrations">
+          <div id="astro" className="scroll-container">
+            <Astro />
+          </div>
+        </div>
+        <div className="sub-container">
+          <div id="illustrations" className="scroll-container">
             <Illustration />
+          </div>
+        </div>
+        <div className="sub-container">
+          <div id="logos" className="scroll-container">
+            <Logos />
           </div>
         </div>
       </main>

@@ -1,6 +1,6 @@
-/* body {
-  background-color: hsl(330, 7%, 24%);
-} */
+body {
+  background-color: hsla(32, 37%, 46%, 0.7);
+}
 
 .bgimage {
   position: fixed;

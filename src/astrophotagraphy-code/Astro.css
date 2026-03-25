@@ -1,0 +1,10 @@
+.astro-container {
+  text-align: center;
+  color: white;
+}
+
+.astro-images {
+  user-select: none;
+  width: 100%;
+  border-radius: 30px;
+}

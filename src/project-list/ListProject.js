@@ -12,6 +12,12 @@ function ListProject() {
         <div className="my-project-list-container">
           <ul>
             <li>
+              <a className="list-anchors" href="#top">
+                {" "}
+                Back to top
+              </a>
+            </li>
+            <li>
               <a className="list-anchors" href="#about">
                 {" "}
                 About-me
@@ -24,7 +30,7 @@ function ListProject() {
               </a>
             </li>
             <li>
-              <a className="list-anchors" href="#images">
+              <a className="list-anchors" href="#astro">
                 {" "}
                 Astrophotagraphy
               </a>
@@ -36,7 +42,7 @@ function ListProject() {
               </a>
             </li>
             <li>
-              <a className="list-anchors" href="#images">
+              <a className="list-anchors" href="#logos">
                 {" "}
                 Logos
               </a>

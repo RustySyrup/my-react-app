@@ -1,0 +1,10 @@
+.logo-container {
+  text-align: center;
+  color: white;
+}
+
+.logos {
+  user-select: none;
+  width: 100%;
+  border-radius: 30px;
+}
