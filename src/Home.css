@@ -34,7 +34,7 @@ html {
 .aside {
   height: 135px;
   background-color: hsla(33, 37%, 23%, 0.7);
-  margin-top: 5%;
+  margin-top: 2%;
   margin-left: 2%;
   position: fixed;
   left: 0;
@@ -56,9 +56,9 @@ html {
 
 .footer {
   position: fixed;
+  margin: 2%;
   bottom: 0;
   width: 100%;
   text-align: left;
-  padding: 10px;
   z-index: 10;
 }
