@@ -1,5 +1,17 @@
+.earth,
+.light,
+.moon,
+.moonlight {
+  user-select: none;
+}
+
+.earthandmoon-container {
+  margin-top: 200px;
+  height: 450px;
+  position: relative;
+}
+
 .scene {
-  margin-top: 100px;
   position: relative;
   width: 100%;
   height: 100%;

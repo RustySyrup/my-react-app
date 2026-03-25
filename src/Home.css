@@ -1,117 +1,50 @@
-.home {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* background-color: hsl(330, 7%, 24%); */
-  height: 100%;
+html {
+  scroll-behavior: smooth;
 }
 
-.home-body {
-  /* background-color: hsl(330, 7%, 24%); */
-  min-height: 100vh;
+.main-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.earthandmoon-container {
-  margin-top: 130px;
-  height: 450px;
-  position: relative;
-}
-
-.home-container {
+.sub-container {
   background-color: hsla(330, 7%, 24%, 0.7);
+  width: 50%;
   padding: 10px;
-  margin-top: 300px;
-  width: 40%;
+  margin-top: 40vh;
   border: 2px solid white;
   border-radius: 30px;
-}
-
-/*images*/
-
-.home-images {
-  width: 100%;
 }
 
 .aside {
+  height: 80px;
   background-color: hsla(330, 7%, 24%, 0.7);
-  margin: 2%;
+  margin-top: 5%;
+  margin-left: 2%;
   position: fixed;
   left: 0;
   top: 0;
-  height: 75%;
-  width: 20%;
-  color: white;
+  width: 200px;
   border: 2px solid white;
   border-radius: 30px;
+  transition: 0.3s ease-out;
 }
 
-.header {
-  margin-top: 4px;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  color: white;
-  padding: 15px;
-  z-index: 100;
+.aside:hover {
+  height: 370px;
 }
 
-.header .nav {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 30px;
-}
-
-.nava,
-.button {
-  background-color: hsla(330, 7%, 24%, 0.7);
-  padding: 10px;
-  color: white;
-  text-decoration: none;
-  border: 2px solid white;
-  border-radius: 30px;
-  font-size: 2rem;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.nava {
-  margin: 26.297px;
+.aside:hover .my-project-list-container {
+  opacity: 1;
+  transition: 0.9s ease-in;
 }
 
 .footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  text-align: right;
-  color: white;
+  text-align: left;
   padding: 10px;
-  z-index: 100;
-}
-
-.pfoot {
-  background-color: hsla(330, 7%, 24%, 0.7);
-  margin: 2%;
-  padding: 10px;
-  color: white;
-  text-decoration: none;
-  border: 2px solid white;
-  border-radius: 30px;
-  font-size: 1rem;
-}
-
-.button {
-  margin: 2%;
-  padding: 10px;
-  color: white;
-  text-decoration: none;
-  border: 2px solid white;
-  border-radius: 30px;
-  font-size: 2rem;
+  z-index: 10;
 }

@@ -1,0 +1,12 @@
+.pfoot {
+  background-color: hsla(330, 7%, 24%, 0.7);
+  margin: 26.2969px;
+  padding: 10px;
+  width: 180px;
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 30px;
+  font-size: 1rem;
+  text-align: center;
+}
