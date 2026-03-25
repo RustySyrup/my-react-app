@@ -48,9 +48,9 @@ function ListProject() {
               </a>
             </li>
             <li>
-              <a className="list-anchors" href="#images">
+              <a className="list-anchors" href="#top">
                 {" "}
-                Typography
+                ..Placeholder..
               </a>
             </li>
           </ul>
