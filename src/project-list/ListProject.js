@@ -6,7 +6,7 @@ function ListProject() {
   return (
     <div className="my-projects-container">
       <div>
-        <div className="my-project-h2-container">
+        <div className="my-project-h1-container">
           <h1>RustySyrup Projects</h1>
         </div>
         <div className="my-project-list-container">

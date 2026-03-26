@@ -2,7 +2,7 @@
 .light,
 .moon,
 .moonlight,
-.satelite {
+.satellite {
   user-select: none;
 }
 
@@ -38,7 +38,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .earth {
-    animation: spinPlanet 120s linear infinite;
+    animation: spinPlanet 60s linear infinite;
   }
 }
 
@@ -49,17 +49,17 @@
   width: 1000px;
   height: 1000px;
   transform: translate(-50%, -50%);
-  animation: orbitMoon 40s linear infinite;
+  animation: orbitMoon 180s linear infinite;
 }
 
-.satelite-wrap {
+.satellite-wrap {
   position: absolute;
   top: 50%;
   left: 50%;
   width: 800px;
   height: 800px;
   transform: translate(-50%, -50%);
-  animation: orbitsatelite 20s linear infinite;
+  animation: orbitsatelite 30s linear infinite;
 }
 
 .moon-wrap {
@@ -83,8 +83,8 @@
 @media (prefers-reduced-motion: no-preference) {
   .moonlight {
     animation:
-      hideOnRight 40s linear infinite,
-      spinMoonlight 40s linear infinite;
+      hideOnRight 180s linear infinite,
+      spinMoonlight 180s linear infinite;
   }
 }
 

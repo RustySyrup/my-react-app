@@ -1,5 +1,6 @@
 import React from "react";
 import eclipse from "../illustration/solar eclipse.png";
+import radar from "../illustration/radar.png";
 import "./Illustration.css";
 
 function Illustration() {
@@ -11,6 +12,12 @@ function Illustration() {
         src={eclipse}
         className="illustrations"
         alt="illustration of solar eclipse"
+      />
+      <h3>Radar</h3>
+      <img
+        src={radar}
+        className="illustrations"
+        alt="illustration of radar screen"
       />
     </div>
   );
