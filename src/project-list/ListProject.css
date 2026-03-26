@@ -23,6 +23,10 @@
   font-family: "Pacifico";
 }
 
+.project-h1 {
+  font-family: "Roboto";
+}
+
 .my-project-list-container {
   justify-self: center;
   opacity: 0;

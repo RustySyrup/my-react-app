@@ -1,5 +1,4 @@
 import React from "react";
-// import Nav from "../nav/Nav";
 import "./ListProject.css";
 
 function ListProject() {
@@ -7,7 +6,9 @@ function ListProject() {
     <div className="my-projects-container">
       <div>
         <div className="my-project-h1-container">
-          <h1>RustySyrup Projects</h1>
+          <h1>
+            RustySyrup <span className="project-h1">Projects:</span>
+          </h1>
         </div>
         <div className="my-project-list-container">
           <ul>

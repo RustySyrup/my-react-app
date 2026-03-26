@@ -7,11 +7,13 @@ import Credit from "./credit/Credit";
 import Illustration from "./illustrations-code/Illustration";
 import Astro from "./astrophotagraphy-code/Astro";
 import Logos from "./logos-code/Logos";
+import Nav from "./Nav/Nav";
 import "./Home.css";
 
 function Home() {
   return (
     <div className="home">
+      <Nav />
       <div id="top"></div>
       <main className="main-container">
         <EarthAndMoon />

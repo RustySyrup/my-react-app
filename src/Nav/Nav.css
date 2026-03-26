@@ -1,0 +1,24 @@
+.nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 2%;
+}
+
+.top-page-a {
+  display: inline;
+  padding: 10px;
+  padding: 10px;
+  justify-content: center;
+  text-align: center;
+  z-index: 100;
+  color: white;
+  background-color: hsla(26, 45%, 30%, 0.7);
+  border: 2px solid hsl(39, 47%, 66%);
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.top-page-a:hover {
+  background-color: hsla(32, 37%, 46%, 0.7);
+}
