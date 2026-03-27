@@ -1,7 +1,7 @@
 import React from "react";
 import eclipse from "../illustration/solar eclipse.png";
-import radar from "../illustration/radar.png";
 import planets from "../illustration/Planets.png";
+import building from "../illustration/building.png";
 import "./Illustration.css";
 
 function Illustration() {
@@ -18,13 +18,13 @@ function Illustration() {
       <img
         src={planets}
         className="illustrations"
-        alt="planets in cloudy space"
+        alt="illustration of planets in cloudy space"
       />{" "}
-      <h3>Radar</h3>
+      <h3>Building</h3>
       <img
-        src={radar}
+        src={building}
         className="illustrations"
-        alt="illustration of radar screen"
+        alt="illustration of Building Facade"
       />
     </div>
   );
