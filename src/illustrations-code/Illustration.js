@@ -2,6 +2,7 @@ import React from "react";
 import eclipse from "../illustration/solar eclipse.png";
 import planets from "../illustration/Planets.png";
 import building from "../illustration/building.png";
+import chalet from "../illustration/Chalet.png";
 import "./Illustration.css";
 
 function Illustration() {
@@ -23,6 +24,12 @@ function Illustration() {
       <h3>Building</h3>
       <img
         src={building}
+        className="illustrations"
+        alt="illustration of Building Facade"
+      />
+      <h3>Chalet</h3>
+      <img
+        src={chalet}
         className="illustrations"
         alt="illustration of Building Facade"
       />
