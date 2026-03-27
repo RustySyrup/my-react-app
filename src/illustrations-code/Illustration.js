@@ -3,6 +3,7 @@ import eclipse from "../illustration/solar eclipse.png";
 import planets from "../illustration/Planets.png";
 import building from "../illustration/building.png";
 import chalet from "../illustration/Chalet.png";
+import appartment from "../illustration/Appartment.png";
 import tree from "../illustration/Tree.png";
 
 import "./Illustration.css";
@@ -37,6 +38,14 @@ function Illustration() {
       />
       <h3>The tree</h3>
       <img src={tree} className="illustrations" alt="Lone tree in dark void" />
+
+      <h3>Appartment</h3>
+
+      <img
+        src={appartment}
+        className="illustrations"
+        alt="Apparment building"
+      />
     </div>
   );
 }
