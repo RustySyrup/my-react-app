@@ -3,7 +3,8 @@ import eclipse from "../illustration/solar eclipse.png";
 import planets from "../illustration/Planets.png";
 import building from "../illustration/building.png";
 import chalet from "../illustration/Chalet.png";
-import appartment from "../illustration/Appartment.png";
+import apartment from "../illustration/Apartement.png";
+import HouseOnHill from "../illustration/house-on-hill.png";
 import tree from "../illustration/Tree.png";
 
 import "./Illustration.css";
@@ -36,16 +37,18 @@ function Illustration() {
         className="illustrations"
         alt="illustration of Building Facade"
       />
+      <h3>Chalet</h3>
+      <img
+        src={HouseOnHill}
+        className="illustrations"
+        alt="illustration of Chalet on a hill"
+      />
       <h3>The tree</h3>
       <img src={tree} className="illustrations" alt="Lone tree in dark void" />
 
-      <h3>Appartment</h3>
+      <h3>Apartment</h3>
 
-      <img
-        src={appartment}
-        className="illustrations"
-        alt="Apparment building"
-      />
+      <img src={apartment} className="illustrations" alt="Apparment building" />
     </div>
   );
 }
