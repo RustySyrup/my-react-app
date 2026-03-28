@@ -8,7 +8,7 @@ import HouseOnHill from "../illustration/house-on-hill.png";
 import hand from "../illustration/hand.png";
 import abstract from "../illustration/abstract.png";
 import tree from "../illustration/Tree.png";
-
+import subway from "../illustration/Subway.png";
 import "./Illustration.css";
 
 function Illustration() {
@@ -63,6 +63,14 @@ function Illustration() {
       <h3>Apartment</h3>
 
       <img src={apartment} className="illustrations" alt="Apparment building" />
+
+      <h3>Subway</h3>
+
+      <img
+        src={subway}
+        className="illustrations"
+        alt="Illustration of subway station"
+      />
     </div>
   );
 }
